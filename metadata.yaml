@@ -1,0 +1,22 @@
+name: block
+summary: Add juju storage disks to any juju deployed virtual machine
+maintainer: Alan Baghumian <alan@technotux.org>
+tags:
+- openstack
+- storage
+- file-servers
+- misc
+series:
+- focal
+- jammy
+- kinetic
+- lunar
+description: |
+  Block is a simple charm to add juju storage disks to any juju 
+  deployed virtual machine.
+storage:
+  disk:
+    type: block
+    multiple:
+      range: 0-
+    minimum-size: 1G
