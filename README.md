@@ -11,7 +11,7 @@ juju create-storage-pool ssd cinder volume-type="ssd"
 juju create-storage-pool nvme cinder volume-type="nvme"
 ```
 ```
-juju create-storage-pool ebsgp3 ebs volume-type=gp3
+juju create-storage-pool ebsgp3 ebs volume-type="gp3"
 ```
 
 ### B. Deploy instance + block disk
