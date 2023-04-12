@@ -14,6 +14,9 @@ juju create-storage-pool nvme cinder volume-type="nvme"
 juju create-storage-pool ebsgp3 ebs volume-type="gp3"
 ```
 
+See [Juju Storage](https://juju.is/docs/olm/storage) for more information.
+
+
 ### B. Deploy instance + block disk
 
 ```
@@ -39,8 +42,7 @@ block/1  disk/1      block  nvme 100GiB  attached
 
 ## Other resources
 
-- [Read more](https://charmhub.io/block)
-
-- [Contributing](CONTRIBUTING.md) <!-- or link to other contribution documentation -->
-
+- Check out the [Source Code](https://github.com/alanbach/charm-block)
+- See [Contributing](https://github.com/alanbach/charm-block/blob/main/CONTRIBUTING.md) if you are interested to make this charm better.
+- Found Bugs? [Report here](https://github.com/alanbach/charm-block/issues)
 - See the [Juju SDK documentation](https://juju.is/docs/sdk) for more information about developing and improving charms.
