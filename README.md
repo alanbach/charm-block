@@ -1,6 +1,10 @@
 # Overview
 
-Block is a very simple charm that allocates and deploys storage disks to any juju deployed virtual machine.
+Block is a very simple charm that allocates and deploys storage disks to any juju deployed virtual machine. 
+
+It does require a [Dynamic Storage](https://juju.is/docs/olm/dynamic-storage) provider to be present.
+
+
 
 ## Usage
 
@@ -39,6 +43,7 @@ Unit     Storage ID  Type   Pool  Size    Status    Message
 block/0  disk/0      block  ssd  100GiB  attached  
 block/1  disk/1      block  nvme 100GiB  attached  
 ```
+
 
 ## Other resources
 
