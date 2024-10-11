@@ -2,6 +2,8 @@ name: block
 summary: Add juju storage disks to any juju deployed virtual machine
 maintainer: Alan Baghumian <alan@technotux.org>
 source: https://github.com/alanbach/charm-block
+links:
+  documentation: https://github.com/alanbach/charm-block/blob/main/README.md
 tags:
 - openstack
 - storage
@@ -12,6 +14,8 @@ series:
 - jammy
 - kinetic
 - lunar
+- mantic
+- noble
 description: |
   Block is a simple charm to add juju storage disks to any juju 
   deployed virtual machine.

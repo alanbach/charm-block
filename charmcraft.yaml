@@ -18,3 +18,6 @@ bases:
       - name: ubuntu
         channel: "23.04"
         architectures: [amd64, s390x, ppc64el, arm64]
+      - name: ubuntu
+        channel: "24.04"
+        architectures: [amd64, s390x, ppc64el, arm64]

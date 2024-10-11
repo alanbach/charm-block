@@ -5,7 +5,6 @@ Block is a very simple charm that allocates and deploys storage disks to any juj
 It does require a [Dynamic Storage](https://juju.is/docs/olm/dynamic-storage) provider to be present.
 
 
-
 ## Usage
 
 ### A. Create storage pools (Required)
@@ -44,6 +43,13 @@ block/0  disk/0      block  ssd  100GiB  attached
 block/1  disk/1      block  nvme 100GiB  attached  
 ```
 
+## Build
+
+```
+git clone git@github.com:alanbach/charm-block.git
+cd charm-block
+charmcraft pack
+```
 
 ## Other resources
 
